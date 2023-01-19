@@ -1,0 +1,17 @@
+<suite name="Smoke">
+
+	<test name="LoginTest">
+		<parameter name="userName" value="demo@techfios.com"></parameter>
+		<parameter name="password" value="abc123"></parameter>
+		<parameter name="dashboardHeaderText" value="Dashboard"></parameter>
+
+		<classes>
+
+			<class name="test.LoginTest"></class>
+
+		</classes>
+
+
+	</test>
+
+</suite>

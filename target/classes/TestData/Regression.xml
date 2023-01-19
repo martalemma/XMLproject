@@ -1,0 +1,32 @@
+<suite name="Regression">
+
+	<test name="LoginTest">
+		<parameter name="userName" value="demo@techfios.com"></parameter>
+		<parameter name="password" value="abc123"></parameter>
+		<parameter name="dashboardHeaderText" value="Dashboard"></parameter>
+		<parameter name="fullName" value="Selenium"></parameter>
+		<parameter name="company" value="Techfios"></parameter>
+		<parameter name="email" value="abc@tecfios.com"></parameter>
+		<parameter name="phone" value="a123456"></parameter>
+		<parameter name="address" value="1111111 rd"></parameter>
+		<parameter name="city" value="Dallas"></parameter>
+		<parameter name="state" value="Tx"></parameter>
+		<parameter name="zip" value="a75342"></parameter>
+		<parameter name="country" value="Ethiopia"></parameter>
+		<parameter name="currency" value="USD"></parameter>
+		<parameter name="group" value="Selenium"></parameter>
+
+		<classes>
+		
+            <!--<class name="test.LoginTest"/> -->
+             <!--<class name="test.AddCustomerTest"/>  -->
+             <class name="test.ListCustomerTest"/>
+			
+			  
+
+		</classes>
+
+
+	</test>
+
+</suite>
